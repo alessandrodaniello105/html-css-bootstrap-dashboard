@@ -1,10 +1,14 @@
-nav .img-box {
+nav {
   height: 70px;
-  line-height: 70px;
+}
+
+nav .img-box {
+  height: 100%;
+  /* line-height: 70px; */
 }
 
 nav img.mob-logo {
-  height: 70px;
+  height: 40px;
   object-fit: cover;
 }
 
@@ -14,7 +18,7 @@ nav .form_search_bar {
 
 nav .form-control-search_ctm {
   background-color: #E5E5E5;
-  line-height: 2;
+  /* line-height: 2; */
   /* border-top-left-radius: 0;
   border-bottom-left-radius: 0; */
 }
@@ -31,4 +35,37 @@ nav .form-control-search_ctm::placeholder {
   font-size: 14px;
   font-weight: 600;
   color: #828282;
+}
+
+.col.col_ctm {
+  flex: 0 0 0%;
+}
+
+.debug {
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+}
+aside {
+  height: calc(100vh - 70px);
+  width: 66px;
+}
+
+a.link_ctm {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media screen and (min-width: 992px) {
+  aside {
+    width: 150px;
+  }  
+
+  /* nav.navbar-expand-lg .navbar-nav .nav-item a.nav-link.nav-link_ctm {
+    padding: 0;
+  } */
+
+  .main-wrapper .main-content {
+    width: calc(100% - var(--aside-desktop-width));
+  }
 }
