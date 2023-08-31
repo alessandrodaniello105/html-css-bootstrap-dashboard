@@ -2,6 +2,8 @@
   --aside-mobile-width: 66px;
   --aside-desktop-width: 150px;
   --orange: #FF8F00;
+  --bg-blue: #1B72E8;
+  --bg-grey: #F8F9FA:
 }
 
 body {
@@ -84,7 +86,9 @@ nav .dropdown i {
   color: var(--orange);
 }
 
-
+.main-content .main-content-head {
+  background-color: var(--bg-blue);
+} 
 
 
 /**********************
