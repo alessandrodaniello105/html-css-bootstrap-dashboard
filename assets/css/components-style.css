@@ -9,3 +9,32 @@ img.mob-logo {
   height: 70px;
   object-fit: cover;
 }
+
+.form_search_bar {
+  background-color: #E5E5E5;
+}
+
+.form-control-search_ctm {
+  background-color: #E5E5E5;
+  line-height: 2;
+  /* border-top-left-radius: 0;
+  border-bottom-left-radius: 0; */
+}
+
+
+.form-control-search_ctm:focus {
+  box-shadow: none;
+  background-color: #E5E5E5;
+  border: 1px solid #E5E5E5;
+
+}
+
+.form-control-search_ctm::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  color: #828282;
+}
+/* 
+label.search_bar {
+  background-color: red;
+} */
