@@ -1,6 +1,7 @@
 :root {
   --aside-mobile-width: 66px;
   --aside-desktop-width: 150px;
+  --orange: #FF8F00;
 }
 
 body {
@@ -32,6 +33,55 @@ body {
   height: calc(100vh - 70px);
   overflow-y: auto;
 }
+
+/**********************
+          NAV
+**********************/
+
+nav .img-box {
+  height: 100%;
+  /* line-height: 70px; */
+}
+
+nav img.mob-logo {
+  width: 40px;
+  object-fit: cover;
+}
+
+nav .form_search_bar {
+  background-color: #E5E5E5;
+}
+
+nav .form-control-search_ctm {
+  background-color: #E5E5E5;
+  line-height: 2;
+  /* border-top-left-radius: 0;
+  border-bottom-left-radius: 0; */
+}
+
+nav .form-control-search_ctm:focus {
+  box-shadow: none;
+  background-color: #E5E5E5;
+  border: 1px solid #E5E5E5;
+
+}
+
+nav .form-control-search_ctm::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  color: #828282;
+}
+
+nav .dropdown i {
+  color: var(--orange);
+}
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 992px) {
