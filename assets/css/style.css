@@ -1,3 +1,28 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.main-wrapper {
+  height: 100;
+}
+
+.debug {
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+}
+
+aside {
+  height: calc(100vh - 70px);
+  width: 66px;
+}
+
+.main-content {
+  width: calc(100% - 66px);
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+}
