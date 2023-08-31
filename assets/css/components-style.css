@@ -1,0 +1,11 @@
+.img-box {
+  height: 70px;
+  line-height: 70px;
+}
+
+
+
+img.mob-logo {
+  height: 70px;
+  object-fit: cover;
+}
