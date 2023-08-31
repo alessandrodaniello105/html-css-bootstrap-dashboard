@@ -1,9 +1,10 @@
-body {
-  font-family: 'Roboto', sans-serif;
+:root {
+  --aside-mobile-width: 66px;
+  --aside-desktop-width: 150px;
 }
 
-.main-wrapper {
-  height: 100;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .debug {
@@ -11,18 +12,34 @@ body {
   border: 1px solid black;
 }
 
-nav {
+.main-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.main-wrapper nav {
   height: 70px;
   width: 100%;
 }
 
-aside {
+.main-wrapper aside {
   height: calc(100vh - 70px);
   width: 66px;
 }
 
-.main-content {
-  width: calc(100% - 66px);
+.main-wrapper .main-content {
+  width: calc(100% - var(--aside-mobile-width));
   height: calc(100vh - 70px);
   overflow-y: auto;
+}
+
+
+@media screen and (min-width: 992px) {
+  .main-wrapper aside {
+    width: 150px;
+  }  
+
+  .main-wrapper .main-content {
+    width: calc(100% - var(--aside-desktop-width));
+  }
 }
