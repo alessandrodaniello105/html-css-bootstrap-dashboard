@@ -92,10 +92,6 @@ nav .dropdown i {
   color: var(--orange);
 }
 
-.main-content .main-content-head {
-  background-color: var(--bg-blue);
-} 
-
 
 /**********************
          ASIDE
@@ -115,7 +111,17 @@ aside a.link_ctm i {
 }
 
 
+/**********************
+      MAIN-CONTENT
+**********************/
+.main-wrapper .main-content .main-content-head .badge.text_size_pill {
+  font-size: 14px;
+  font-weight: 500;
+}
 
+.main-wrapper .main-content .main-content-head {
+  background-color: var(--bg-blue);
+} 
 
 
 @media screen and (min-width: 992px) {
