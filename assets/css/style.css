@@ -20,8 +20,8 @@ body {
 }
 
 .w_10 {
-  max-width: 10%;
-  width: 10%;
+  /* max-width: 10%; */
+  width: 110px;
 }
 
 img.mob-logo {
@@ -146,7 +146,19 @@ aside a.link_ctm i {
   background-color: #165BBA;
 }
 
+.badge.text_sm_badge {
+  font-weight: 400;
+}
 
+
+.main-wrapper .main-content .card table > tbody > tr {
+  font-size: 14px;
+}
+
+table td:first-child {
+  font-size: 15px;
+  font-weight: 500;
+}
 
 @media screen and (min-width: 992px) {
   .main-wrapper aside {
@@ -157,7 +169,7 @@ aside a.link_ctm i {
     width: calc(100% - var(--aside-desktop-width));
   }
   .offcanvas.offcanvas-end {
-    max-width: 60%;
+    max-width: 40%;
   }
 }
 /* 

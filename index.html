@@ -132,23 +132,23 @@
               </li>
               <!-- /HOME -->
 
-              <!-- HOME -->
+              <!-- STATS -->
               <li class="my-2">
                 <a class="icon-link link_ctm" href="#">
                   <i class="fa-solid fa-chart-simple"></i>
                   <span class="d-none d-lg-inline-block ps-2">Stats</span>
                 </a>
               </li>
-              <!-- /HOME -->
+              <!-- /STATS -->
 
-              <!-- HOME -->
+              <!-- SIGNALS -->
               <li class="my-2">
                 <a class="icon-link link_ctm" href="#">
                   <i class="fa-solid fa-signal"></i>
                   <span class="d-none d-lg-inline-block ps-2">Signals</span>
                 </a>
               </li>
-              <!-- /HOME -->
+              <!-- /SIGNALS -->
 
             </ul>
           </div>
@@ -157,16 +157,20 @@
           
           <!-- ASIDE-BOTTOM -->
           <div class="col col_ctm text-center mt-auto pb-3 aside-bottom">
-            <!-- HOME -->
+
+            <!-- ADMIN -->
             <ul class="list-unstyled">
+
               <li>
                 <a class="icon-link link_ctm" href="#">
                   <i class="fa-solid fa-gear"></i>
                   <span class="d-none d-lg-inline-block ps-2">Admin</span>
                 </a>
               </li>
+
             </ul>
-            <!-- /HOME -->
+            <!-- /ADMIN -->
+
           </div>
           <!-- /ASIDE-BOTTOM -->
           
@@ -296,46 +300,84 @@
                 <table class="table table-hover">
 
                   <thead>
-                    <tr>
+                    <tr class="">
                       <th scope="col" class="fw-normal text-secondary">Nome</th>
-                      <th scope="col" class="fw-normal text-secondary w_10">Data Inizio</th>
-                      <th scope="col" class="fw-normal text-secondary w_10">ROI</th>
-                      <th scope="col" class="fw-normal text-secondary w_10">Stato</th>
-                      <th scope="col" class="fw-normal text-secondary w_10">Azioni</th>
+                      <th scope="col" class="d-none d-md-table-cell fw-normal text-center text-secondary w_10">Data Inizio</th>
+                      <th scope="col" class="d-none d-md-table-cell fw-normal text-center text-secondary w_10">ROI</th>
+                      <th scope="col" class="fw-normal text-center text-secondary w_10">Stato</th>
+                      <th scope="col" class="fw-normal text-center text-secondary w_10">Azioni</th>
                     </tr>
                   </thead>
 
                   <tbody>
 
+                    <!-- TABLE ROW -->
                     <tr>
-                      <td scope="row">
-                        <img src="./assets/img/class-avatar.jpg" class="img-fluid img-thumbnail border-0 mob-logo" alt="Class avatar"> Classe 33
-                      </td>
-                      <td>Mark</td>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
 
-                    <tr>
                       <td scope="row">
-                        <img src="./assets/img/class-avatar.jpg" class="img-fluid img-thumbnail border-0 mob-logo" alt="Class avatar"> Classe 33
+                        <img src="./assets/img/class-avatar.jpg" class="img-fluid img-thumbnail rounded-circle border-0 mob-logo" alt="Class avatar">
+                        Classe 75
                       </td>
-                      <td>Jacob</td>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                    </tr>
 
-                    <tr>
-                      <td scope="row">
-                        <img src="./assets/img/class-avatar.jpg" class="img-fluid img-thumbnail border-0 mob-logo" alt="Class avatar"> Classe 33
+                      <!-- DATE START -->
+                      <td class="d-none d-md-table-cell text-center">15 Feb 2021</td>
+                      <!-- /DATE START -->
+
+                      <!-- ROI -->
+                      <td class="d-none d-md-table-cell text-center">20%</td>
+                      <!-- /ROI -->
+
+                      <!-- STATUS -->
+                      <td class="text-center">
+                        <span class="badge text-bg-success text_sm_badge">Done</span>
                       </td>
-                      <td>Larry the Bird</td>
-                      <td>@twitter</td>
-                      <td>@twitter</td>
-                      <td>@twitter</td>
+                      <!-- /STATUS -->
+                      
+                      <!-- ACTIONS -->
+                      <td class="text-center">
+
+                        <!-- DELETE -->
+                        <button type="button" class="btn btn-outline-secondary">
+                          <span><i class="fa-solid fa-edit"></i></span>
+                        </button>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </button>
+                        <!-- /DELETE -->
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Elimina Classe</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              
+                              <div class="modal-body">
+                                <p>Vuoi davvero cancellare la classe?</p>
+                              </div>
+                              
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                                <button type="button" class="btn btn-primary">Cancella la classe</button>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /Modal -->
+                        
+                        
+                      </td>
+                      <!-- /ACTIONS -->
+
                     </tr>
+                    <!-- /TABLE ROW -->
+
 
                   </tbody>
 
