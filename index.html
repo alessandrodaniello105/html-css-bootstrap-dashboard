@@ -204,21 +204,22 @@
         <!-- /MAIN-CONTENT-HEAD -->
 
         <!-- CONTENT -->
-        <div class="row h-100">
+        <div class="row">
+
 
           <!-- PROSSIME CLASSI -->
-          <div class="col-12 col-lg-8 order-lg-1 debug">
+          <div class="col-12 col-lg-8 order-lg-1 my-4 debug">
             <div class="card">
               <h3 class="card-header fw-normal">Prossime classi</h3>
               <div class="card-body">
                 <table class="table table-hover">
                   <thead>
                     <tr>
-                      <th scope="col">Nome</th>
-                      <th scope="col" class="w_10">Data Inizio</th>
-                      <th scope="col" class="w_10">ROI</th>
-                      <th scope="col" class="w_10">Stato</th>
-                      <th scope="col" class="w_10">Azioni</th>
+                      <th scope="col" class="fw-normal text-secondary">Nome</th>
+                      <th scope="col" class="fw-normal text-secondary w_10">Data Inizio</th>
+                      <th scope="col" class="fw-normal text-secondary w_10">ROI</th>
+                      <th scope="col" class="fw-normal text-secondary w_10">Stato</th>
+                      <th scope="col" class="fw-normal text-secondary w_10">Azioni</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -232,14 +233,18 @@
                       <td>@mdo</td>
                     </tr>
                     <tr>
-                      <th scope="row">2</th>
+                      <td scope="row">
+                        <img src="./assets/img/class-avatar.jpg" class="img-fluid img-thumbnail mob-logo" alt="Class avatar"> Classe 33
+                      </td>
                       <td>Jacob</td>
                       <td>Jacob</td>
                       <td>Thornton</td>
                       <td>@fat</td>
                     </tr>
                     <tr>
-                      <th scope="row">3</th>
+                      <td scope="row">
+                        <img src="./assets/img/class-avatar.jpg" class="img-fluid img-thumbnail mob-logo" alt="Class avatar"> Classe 33
+                      </td>
                       <td>Larry the Bird</td>
                       <td>@twitter</td>
                       <td>@twitter</td>
@@ -252,7 +257,94 @@
           </div>
           <!-- /PROSSIME CLASSI -->
 
-          <div class="col-12 col-lg-8 order-lg-2 debug">F.A.Q.</div>
+
+          <!-- F.A.Q -->
+          <div class="col-12 col-lg-8 order-lg-2 debug">
+            <div class="card">
+
+              <h3 class="card-header fw-normal">F.A.Q.</h3>
+
+              <div class="card-body">
+
+                <div class="accordion accordion-flush" id="accordionFAQ">
+
+                  <!-- ITEM #1 -->
+                  <div class="accordion-item">
+
+                    <!-- QUESTION -->
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Come aggiungere un nuovo studente?
+                      </button>
+                    </h2>
+                    <!-- /QUESTION -->
+                    
+                    <!-- ANSWER -->
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                      <div class="accordion-body">
+                        <p>Clicca "+" in alto nella sezione blu.</p>
+                      </div>
+                    </div>
+                    <!-- /ANSWER -->
+
+                  </div>
+                  <!-- ITEM #1 -->
+
+                  <!-- ITEM #2 -->
+                  <div class="accordion-item">
+                    
+                    <!-- QUESTION -->
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Come posso accedere alle informazioni del mio account?
+                      </button>
+                    </h2>
+                    <!-- /QUESTION -->
+
+                    <!-- ANSWER -->
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                      <div class="accordion-body">
+                        <p>Clicca sull'icona della campanella.</p>
+                      </div>
+                    </div>
+                    <!-- /ANSWER -->
+
+                  </div>
+                  <!-- /ITEM #2 -->
+                  
+                  
+                  <!-- ITEM #3 -->
+                  <div class="accordion-item">
+
+                    <!-- QUESTION -->
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Posso usare questa dashboard da mobile?
+                      </button>
+                    </h2>
+                    <!-- /QUESTION -->
+
+                    <!-- ANSWER -->
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                      <div class="accordion-body">
+                        <p>Sì. Puoi usarlo tramite qualsiasi dispositivo tu preferisca usare.</p>
+                      </div>
+                    </div>
+                    <!-- /ANSWER -->
+
+                  </div>
+                  <!-- /ITEM #3 -->
+
+                </div>
+
+              </div>
+
+            </div>
+            
+          </div>
+          <!-- /F.A.Q -->
+
+
           <div class="col-12 col-lg-4 order-lg-1 debug">Todo</div>
           <div class="col-12 col-lg-4 order-lg-2 debug">graph</div>
         </div>
