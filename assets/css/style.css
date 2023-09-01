@@ -142,11 +142,12 @@ aside a.link_ctm i {
   .main-wrapper .main-content {
     width: calc(100% - var(--aside-desktop-width));
   }
-}
-
-
-@media screen and (min-width: 768px) {
   .offcanvas.offcanvas-end {
     max-width: 60%;
   }
 }
+/* 
+
+@media screen and (min-width: 992px) {
+
+} */
