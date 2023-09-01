@@ -7,7 +7,7 @@ nav .img-box {
   /* line-height: 70px; */
 }
 
-nav img.mob-logo {
+img.mob-logo {
   height: 40px;
   object-fit: cover;
 }
@@ -56,6 +56,20 @@ a.link_ctm {
 }
 
 
+
+
+.w_10 {
+  max-width: 10%;
+  width: 10%;
+}
+
+
+
+
+
+
+
+
 @media screen and (min-width: 992px) {
   aside {
     width: 150px;
@@ -67,5 +81,12 @@ a.link_ctm {
 
   .main-wrapper .main-content {
     width: calc(100% - var(--aside-desktop-width));
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .offcanvas.offcanvas-end {
+    max-width: 60%;
   }
 }

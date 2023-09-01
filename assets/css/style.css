@@ -124,6 +124,15 @@ aside a.link_ctm i {
   padding-left: 2px;
 }
 
+.btn_offcanvas_ctm {
+  padding: 7px 14px;
+}
+
+.badge.bg_badge_ctm {
+  background-color: #165BBA;
+}
+
+
 
 @media screen and (min-width: 992px) {
   .main-wrapper aside {
@@ -132,5 +141,12 @@ aside a.link_ctm i {
 
   .main-wrapper .main-content {
     width: calc(100% - var(--aside-desktop-width));
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .offcanvas.offcanvas-end {
+    max-width: 60%;
   }
 }
