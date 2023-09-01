@@ -96,15 +96,29 @@ nav .dropdown i {
 /**********************
          ASIDE
 **********************/
+
+aside {
+  background-color: #06162d;
+  background-image: url(../img/sidebar-bg.png);
+}
+
+aside li {
+  background-color: transparent;
+  transition: background-color .5s;
+}
+
+aside li:hover {
+  background-color: #ffffff76;
+  transition: background-color .5s;
+}
+
+
 aside a.link_ctm {
   text-decoration: none;
   color: white;
   padding: 5px 10px;
 }
 
-aside a.link_ctm:hover {
-  background-color: #ffffff76;
-}
 
 aside a.link_ctm i {
   font-size: 18px;
