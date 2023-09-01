@@ -19,6 +19,16 @@ body {
   flex: 0 0 0%;
 }
 
+.w_10 {
+  max-width: 10%;
+  width: 10%;
+}
+
+img.mob-logo {
+  width: 40px;
+  object-fit: cover;
+}
+
 /* 
 .py-2_ctm {
   padding: 5px 0;
@@ -54,10 +64,6 @@ nav .img-box {
   /* line-height: 70px; */
 }
 
-nav img.mob-logo {
-  width: 40px;
-  object-fit: cover;
-}
 
 nav .form_search_bar {
   background-color: #E5E5E5;
