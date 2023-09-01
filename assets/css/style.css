@@ -71,7 +71,7 @@ nav .form_search_bar {
 
 nav .form-control-search_ctm {
   background-color: #E5E5E5;
-  line-height: 2;
+  line-height: 2.5;
   /* border-top-left-radius: 0;
   border-bottom-left-radius: 0; */
 }
@@ -84,7 +84,7 @@ nav .form-control-search_ctm:focus {
 
 nav .form-control-search_ctm::placeholder {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   color: #828282;
 }
 
@@ -131,11 +131,11 @@ aside a.link_ctm i {
 .main-wrapper .main-content .main-content-head .badge.text_size_pill {
   font-size: 14px;
   font-weight: 500;
+  line-height: 13px;
 }
 
 .main-wrapper .main-content .main-content-head i.fa-angles-right {
   font-size: 14px;
-  padding-left: 2px;
 }
 
 .btn_offcanvas_ctm {
@@ -150,8 +150,23 @@ aside a.link_ctm i {
   font-weight: 400;
 }
 
+.text_sm {
+  font-size: 14px;
+}
 
 .main-wrapper .main-content .card table > tbody > tr {
+  font-size: 14px;
+}
+
+.main-wrapper .main-content .card table > tbody > tr i {
+  font-size: 14px;
+}
+
+.btn.btn-outline-secondary {
+  padding: 3px 8px;
+}
+
+table th {
   font-size: 14px;
 }
 
@@ -169,7 +184,7 @@ table td:first-child {
     width: calc(100% - var(--aside-desktop-width));
   }
   .offcanvas.offcanvas-end {
-    max-width: 40%;
+    max-width: 800px;
     text-align: left;
   }
 }

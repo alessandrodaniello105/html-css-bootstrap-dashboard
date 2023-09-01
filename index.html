@@ -30,7 +30,7 @@
       <div class="container p-0 m-0 mw-100">
         <div class="container-fluid">
 
-          <div class="row align-items-center">
+          <div class="row align-items-center bg-white">
 
             <!-- LOGO -->
             <div class="col-auto">
@@ -45,17 +45,17 @@
             <!-- /LOGO -->
     
             <!-- SEARCH BAR -->
-            <div class="col">
+            <div class="col px-0">
               
               <form class="d-flex rounded align-self-center form_search_bar" role="search">
 
-                <label for="search_bar" class="ps-3">
+                <label for="search_bar" class="ps-2 align-self-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewbox="0 0 20 20">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
                   </svg>
                 </label>
 
-                <input class="form-control form-control-search_ctm me-2" id="search_bar" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search_bar">
+                <input class="form-control form-control-search_ctm me-2 p-0" id="search_bar" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search_bar">
 
               </form>
 
@@ -303,7 +303,7 @@
 
 
                 <!-- BOOLEAN + BADGES -->
-                <div class="col-md-4 col-lg-6 flex-row">
+                <div class="col-md-4 col-lg-6 flex-row pt-2">
 
                   <h2 class="d-inline-block mb-0">Boolean</h2>
 
@@ -313,27 +313,27 @@
 
                   <div class="py-2">
 
-                    <span class="badge rounded-pill bg_badge_ctm ms-1">
+                    <span class="badge rounded-pill bg_badge_ctm text_size_pill">
                       3 app
                     </span>
 
                     <i class="fa-solid fa-angles-right"></i>
 
                     <!-- MOBILE BADGE -->
-                    <span class="badge d-lg-none rounded-pill text_size_pill bg_badge_ctm ms-1">
+                    <span class="badge d-lg-none rounded-pill text_size_pill bg_badge_ctm">
                       +
                     </span>
                     <!-- /MOBILE BADGE -->
 
-                    <span class="badge rounded-pill bg_badge_ctm text_size_pill d-none d-lg-inline-block ms-1">
+                    <span class="badge rounded-pill bg_badge_ctm text_size_pill d-none d-lg-inline-block">
                       Boolean mobile app
                     </span>
 
-                    <span class="badge rounded-pill bg_badge_ctm text_size_pill d-none d-lg-inline-block ms-1">
+                    <span class="badge rounded-pill bg_badge_ctm text_size_pill d-none d-lg-inline-block">
                       Boolean web app
                     </span>
 
-                    <span class="badge rounded-pill bg_badge_ctm text_size_pill d-none d-lg-inline-block ms-1">
+                    <span class="badge rounded-pill bg_badge_ctm text_size_pill d-none d-lg-inline-block">
                       Boolean blog app
                     </span>
 
@@ -367,7 +367,7 @@
             <!-- PROSSIME CLASSI -->
             <div class="card my-4">
 
-              <h3 class="card-header fw-normal">Prossime classi</h3>
+              <h3 class="card-header fw-normal pb-3">Prossime classi</h3>
 
               <div class="card-body">
 
@@ -376,11 +376,11 @@
                   <!-- TABLE HEAD -->
                   <thead>
                     <tr class="">
-                      <th scope="col" class="fw-normal text-secondary">Nome</th>
-                      <th scope="col" class="d-none d-md-table-cell fw-normal text-center text-secondary w_10">Data Inizio</th>
-                      <th scope="col" class="d-none d-md-table-cell fw-normal text-center text-secondary w_10">ROI</th>
-                      <th scope="col" class="fw-normal text-center text-secondary w_10">Stato</th>
-                      <th scope="col" class="fw-normal text-center text-secondary w_10">Azioni</th>
+                      <th scope="col" class="fw-medium text-secondary">Nome</th>
+                      <th scope="col" class="d-none d-md-table-cell fw-medium text-center text-secondary w_10">Data Inizio</th>
+                      <th scope="col" class="d-none d-md-table-cell fw-medium text-center text-secondary w_10">ROI</th>
+                      <th scope="col" class="fw-medium text-center text-secondary w_10">Stato</th>
+                      <th scope="col" class="fw-medium text-center text-secondary w_10">Azioni</th>
                     </tr>
                   </thead>
                   <!-- /TABLE HEAD -->
@@ -414,16 +414,17 @@
                       <!-- ACTIONS -->
                       <td class="text-center">
 
-                        <!-- DELETE -->
+                        <!-- EDIT -->
                         <button type="button" class="btn btn-outline-secondary">
-                          <span><i class="fa-solid fa-edit"></i></span>
+                          <span><i class="fa-solid fa-pencil"></i></span>
                         </button>
+                        <!-- /EDIT -->
 
+                        <!-- DELETE -->
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#deleteRow1">
                           <span><i class="fa-solid fa-trash"></i></span>
                         </button>
-                        <!-- /DELETE -->
                         
                         <!-- Modal -->
                         <div class="modal fade" id="deleteRow1" tabindex="-1" aria-labelledby="deleteRow1Label" aria-hidden="true">
@@ -448,6 +449,7 @@
                           </div>
                         </div>
                         <!-- /Modal -->
+                        <!-- /DELETE -->
                         
                         
                       </td>
@@ -483,7 +485,7 @@
 
                         <!-- DELETE -->
                         <button type="button" class="btn btn-outline-secondary">
-                          <span><i class="fa-solid fa-edit"></i></span>
+                          <span><i class="fa-solid fa-pencil"></i></span>
                         </button>
 
                         <!-- Button trigger modal -->
@@ -550,7 +552,7 @@
 
                         <!-- DELETE -->
                         <button type="button" class="btn btn-outline-secondary">
-                          <span><i class="fa-solid fa-edit"></i></span>
+                          <span><i class="fa-solid fa-pencil"></i></span>
                         </button>
 
                         <!-- Button trigger modal -->
@@ -617,7 +619,7 @@
 
                         <!-- DELETE -->
                         <button type="button" class="btn btn-outline-secondary">
-                          <span><i class="fa-solid fa-edit"></i></span>
+                          <span><i class="fa-solid fa-pencil"></i></span>
                         </button>
 
                         <!-- Button trigger modal -->
@@ -684,7 +686,7 @@
 
                         <!-- DELETE -->
                         <button type="button" class="btn btn-outline-secondary">
-                          <span><i class="fa-solid fa-edit"></i></span>
+                          <span><i class="fa-solid fa-pencil"></i></span>
                         </button>
 
                         <!-- Button trigger modal -->
@@ -751,7 +753,7 @@
 
                         <!-- DELETE -->
                         <button type="button" class="btn btn-outline-secondary">
-                          <span><i class="fa-solid fa-edit"></i></span>
+                          <span><i class="fa-solid fa-pencil"></i></span>
                         </button>
 
                         <!-- Button trigger modal -->
@@ -818,7 +820,7 @@
 
                         <!-- DELETE -->
                         <button type="button" class="btn btn-outline-secondary">
-                          <span><i class="fa-solid fa-edit"></i></span>
+                          <span><i class="fa-solid fa-pencil"></i></span>
                         </button>
 
                         <!-- Button trigger modal -->
@@ -885,7 +887,7 @@
 
                         <!-- DELETE -->
                         <button type="button" class="btn btn-outline-secondary">
-                          <span><i class="fa-solid fa-edit"></i></span>
+                          <span><i class="fa-solid fa-pencil"></i></span>
                         </button>
 
                         <!-- Button trigger modal -->
@@ -939,7 +941,7 @@
             <!-- F.A.Q -->
             <div class="card">
 
-              <h3 class="card-header fw-normal">F.A.Q.</h3>
+              <h3 class="card-header fw-normal pb-3">F.A.Q.</h3>
 
               <div class="card-body">
 
@@ -1031,11 +1033,11 @@
             <!-- CARD -->
             <div class="card my-4">
 
-              <h3 class="card-header fw-normal">Todo</h3>
+              <h3 class="card-header fw-normal pb-3">Todo</h3>
 
               <div class="card-body">
 
-                <ul class="list-group">
+                <ul class="list-group text_sm">
 
                   <li class="list-group-item">
                     <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
