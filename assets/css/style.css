@@ -139,8 +139,13 @@ aside a.link_ctm i {
 }
 
 .btn_offcanvas_ctm {
-  padding: 7px 14px;
+  padding: 0px 13px;
 }
+
+.main-wrapper .main-content .main-content-head button > span {
+  font-size: 25px;
+}
+
 
 .badge.bg_badge_ctm {
   background-color: #165BBA;
