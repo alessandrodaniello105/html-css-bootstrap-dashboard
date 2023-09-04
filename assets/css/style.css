@@ -186,7 +186,7 @@ aside a.link_ctm i {
 }
 
 .main-content table  tr > th:not(:first-child) {
-  width: 100px;
+  width: 95px;
 }
 
 table td:first-child {
