@@ -50,9 +50,7 @@
               <form class="d-flex rounded align-self-center form_search_bar" role="search">
 
                 <label for="search_bar" class="ps-2 align-self-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewbox="0 0 20 20">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                  </svg>
+                  <i class="fa-solid fa-magnifying-glass pe-2"></i>
                 </label>
 
                 <input class="form-control form-control-search_ctm me-2 p-0" id="search_bar" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search_bar">
@@ -191,7 +189,7 @@
           <div class="col px-0 main-content-head bg-primary text-white">
             <div class="container-fluid">
 
-              <div class="row py-4">
+              <div class="row pt-4 pb-3">
 
                 <!-- ADD STUDENT + OFFCAVAS -->
                 <div class="col-md-4 col-lg-2 ms-auto order-md-last">
@@ -377,10 +375,10 @@
                   <thead>
                     <tr class="">
                       <th scope="col" class="fw-medium text-secondary">Nome</th>
-                      <th scope="col" class="d-none d-md-table-cell fw-medium text-center text-secondary w_10">Data Inizio</th>
-                      <th scope="col" class="d-none d-md-table-cell fw-medium text-center text-secondary w_10">ROI</th>
-                      <th scope="col" class="fw-medium text-center text-secondary w_10">Stato</th>
-                      <th scope="col" class="fw-medium text-center text-secondary w_10">Azioni</th>
+                      <th scope="col" id="dataStart" class="d-none d-md-table-cell fw-medium text-center text-secondary">Data Inizio</th>
+                      <th scope="col" class="d-none d-md-table-cell fw-medium text-center text-secondary">ROI</th>
+                      <th scope="col" class="fw-medium text-center text-secondary">Stato</th>
+                      <th scope="col" class="fw-medium text-center text-secondary">Azioni</th>
                     </tr>
                   </thead>
                   <!-- /TABLE HEAD -->

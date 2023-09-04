@@ -146,6 +146,11 @@ aside a.link_ctm i {
   background-color: #165BBA;
 }
 
+.badge.bg_badge_ctm:hover {
+  cursor: pointer;
+  background-color: #0e3265bd;
+}
+
 .badge.text_sm_badge {
   font-weight: 400;
 }
@@ -166,14 +171,20 @@ aside a.link_ctm i {
   padding: 3px 8px;
 }
 
-table th {
+.main-content table  tr > th {
   font-size: 14px;
 }
 
+.main-content table  tr > th:not(:first-child) {
+  width: 100px;
+}
+
 table td:first-child {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
 }
+
+
 
 @media screen and (min-width: 992px) {
   .main-wrapper aside {
