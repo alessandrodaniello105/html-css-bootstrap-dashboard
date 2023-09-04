@@ -19,6 +19,10 @@ body {
   flex: 0 0 0%;
 }
 
+.text_sm {
+  font-size: 14px;
+}
+
 .w_10 {
   /* max-width: 10%; */
   width: 110px;
@@ -147,6 +151,9 @@ aside a.link_ctm i {
 }
 
 
+/****************
+      BADGE
+****************/
 .badge.bg_badge_ctm {
   background-color: #165BBA;
 }
@@ -160,20 +167,18 @@ aside a.link_ctm i {
   font-weight: 400;
 }
 
-.text_sm {
+
+.main-wrapper .main-content table > tbody > tr {
   font-size: 14px;
 }
 
-.main-wrapper .main-content .card table > tbody > tr {
-  font-size: 14px;
-}
-
-.main-wrapper .main-content .card table > tbody > tr i {
+.main-wrapper .main-content table > tbody > tr i {
   font-size: 14px;
 }
 
 .btn.btn-outline-secondary {
   padding: 3px 8px;
+  margin-right: .25rem;
 }
 
 .main-content table  tr > th {
